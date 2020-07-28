@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>C1Challenge</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="C1Challenge.zip" />
+  </ItemGroup>
+</Project>
