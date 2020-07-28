@@ -79,6 +79,8 @@ namespace C1Challenge
                 sistema.RemoverConta(conta.Agencia, conta.Numero);
                 break;
             }
+
+            Environment.Exit(0);
         }
 
         private static string RandomStr(string collection, int amount)
